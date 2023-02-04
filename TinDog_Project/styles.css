@@ -1,0 +1,276 @@
+ * {
+   font-family: Montserrat;
+ }
+
+ .container-fluid {
+   padding: 3% 15% 7%;
+ }
+
+ .Tindog_Head {
+   font-family: Montserrat;
+   text-decoration: none;
+   letter-spacing: 2px;
+   transition: .5s;
+ }
+
+ .Tindog_Head:hover {
+   transition: .5s;
+   letter-spacing: 10px;
+   color: #ff4c68;
+ }
+
+ .navbar-brand {
+   font-family: Ubuntu;
+   font-size: 2rem;
+   font-weight: bold;
+   padding-right: 350px;
+ }
+
+ .nav-item {
+   padding-left: 18px;
+   padding-right: 18px;
+ }
+
+ .nav-link {
+   font-size: 1.2rem;
+   font-family: Montserrat;
+ }
+
+ .navbar {
+   padding-bottom: 3.5rem;
+ }
+
+ .title {
+   background-color: #ff4c68;
+   width: 100%;
+ }
+
+ .Top_Description {
+   text-align: left;
+   color: white;
+   font-family: Montserrat;
+   font-size: 3.7rem;
+   font-weight: bold;
+   line-height: 1.5;
+ }
+
+ .ButtonDownload {
+   text-align: center;
+   /* margin-right: 6%; */
+ }
+
+ .OnphoneIMG {
+   width: 22%;
+   transform: rotate(25deg);
+   position: absolute;
+   right: 25%;
+ }
+
+ @media (max-width:1000px) {
+   .NavDownload {
+     text-align: center;
+   }
+
+   .Top-Download-Button {
+     text-align: center;
+     margin-left: 10%;
+   }
+
+   .OnphoneIMG {
+     position: static;
+     transform: rotate(0);
+     width: 80%;
+     margin-left: 10%;
+   }
+ }
+
+ /* ------------------------Features------------------------ */
+ #Features {
+   padding: 7% 16%;
+   background-color: white;
+   position: relative;
+   /* z-index: 1; */
+ }
+
+ .Feature_Box:hover {
+   border: 1px #ff4c68 solid;
+   border-radius: 2.5%;
+ }
+
+ .Features_Icons {
+   color: #ef8172;
+   text-align: center;
+   padding-bottom: 10%;
+ }
+
+ .Features_Icons:hover {
+   color: #ff4c68;
+ }
+
+ .Features_Title {
+   font-family: Montserrat;
+   font-weight: bold;
+   text-decoration: none;
+   letter-spacing: 2px;
+   transition: .5s;
+ }
+
+ .Feature_Box {
+   text-align: center;
+   padding-top: 5%;
+   padding-bottom: 5%;
+ }
+
+ .Features_Text {
+   color: #8f8f8f;
+ }
+
+ .Features_Title:hover {
+   transition: .5s;
+   letter-spacing: 5px;
+   color: #ff4c68;
+ }
+
+ /* ------------------------Testimonials------------------------ */
+ #carouselExampleIndicators {
+   padding-bottom: 5%;
+ }
+
+ #testimonials {
+   text-align: center;
+   background-color: #ef8172;
+   color: white;
+ }
+
+ .testimonials_Title {
+   padding-top: 75px;
+   font-family: Montserrat;
+   font-weight: bold;
+   font-size: 2rem;
+   line-height: 1.5;
+ }
+
+ .testimonials_Img {
+   margin-bottom: 75px;
+   margin: 50px;
+   width: 15%;
+   border: 1px #ef8172 solid;
+   border-radius: 100%
+ }
+
+ .carousel-item {
+   padding: 5% 15% 0;
+ }
+
+ .testimonials_user {
+   font-size: 20px;
+ }
+
+ #press {
+   background-color: #ef8172;
+   text-align: center;
+ }
+
+ .press_logo {
+   width: 16%;
+   margin: 100px 35px 100px;
+ }
+
+ /* ------------------------Pricing------------------------ */
+ #pricing {
+   padding: 7% 10%;
+   background-color: white;
+ }
+
+ .pricing_head {
+   text-align: center;
+   font-size: 50px;
+   font-weight: bold;
+   padding-bottom: 20px;
+ }
+
+ .pricing_text {
+   text-align: center;
+   padding-bottom: 50px;
+   font-size: 18px;
+ }
+
+ .card {
+   margin-top: 30px;
+   text-align: center;
+   border: 1px #8f8f8f solid;
+   border-radius: 5%''
+ }
+
+ .card:hover {
+   border: 3.5px #ff4c68 solid;
+   color: black;
+   font-weight: bold;
+ }
+
+ .card-head {
+   padding-top: 40px;
+   padding-bottom: 40px;
+ }
+
+ .card-head:hover {
+   font-weight: bold;
+ }
+
+ .card-title {
+   padding-bottom: 40px;
+ }
+
+ .card-title:hover {
+   font-weight: bold;
+ }
+
+ .card-text {
+   padding-bottom: 10px;
+ }
+
+ .btn-lg {
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-bottom: 30px;
+   margin-top: 10px;
+ }
+
+ .sign-up:hover {
+   transition: .5s;
+   letter-spacing: 2.5px;
+   padding-left: 80px;
+   padding-right: 80px;
+ }
+
+ /* ------------------------Footer------------------------ */
+ #cta {
+   padding: 7% 15%;
+   background-color: #ff4c68;
+   text-align: center;
+ }
+
+ .cta-title {
+   color: white;
+   font-family: Montserrat;
+   font-size: 3.5rem;
+   line-height: 1.5;
+   font-weight: bold;
+   padding-bottom: 50px;
+ }
+
+ #footer {
+   background-color: white;
+   padding: 7% 15%;
+   text-align: center;
+ }
+
+ .footer-button {
+   border: none;
+   margin: 2% 2% 5% 2%;
+   color: grey;
+ }
+
+ .footer-button:hover {
+   color: black;
+ }
